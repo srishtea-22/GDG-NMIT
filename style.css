@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    background-color: black;
+    margin: 0;
+    padding: 0; 
+}
+
+.header {
+    padding-bottom: 40px;
+}
+
+.header-links{
+    color: white;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.header-links a{
+    padding-left: 30px;
+}
+
+.header-main{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    align-items: center;
+}
+
+.header-name{
+    color: rgba(101,107,114,190);
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 30px;
+}
