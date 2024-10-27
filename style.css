@@ -13,7 +13,7 @@
 .header-links{
     display: flex;
     padding-top: 30px;
-    gap: 11.3in;
+    gap: 11in;
 }
 
 .header-links .left{
@@ -190,6 +190,10 @@ h1 {
     z-index: 2;
 }
 
+.event-item-3:hover{
+    cursor: pointer;
+}
+
 .event-item-4{
     left: 70% ;
     transform: translateX(-50%);
@@ -214,8 +218,6 @@ h1 {
     cursor: pointer;
     font-size: 30px;
     margin: 0 50px;
-    padding: 0 12;
-    text-transform: capitalize;
 }
 
 .event-controls-button:focus{

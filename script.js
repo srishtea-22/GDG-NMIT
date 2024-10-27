@@ -57,3 +57,9 @@ const exampleCarousel = new Carousel(eventContainer, eventItems, eventControls);
 
 exampleCarousel.setControls();
 exampleCarousel.useControls();
+
+eventItems.forEach(item => {
+    item.addEventListener('click', () => {
+        window.location.href = item.dataset.link;
+    });
+});
