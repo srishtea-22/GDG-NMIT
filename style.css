@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Space+Grotesk:wght@300&display=swap');
 * {
-    background-color: rgba(18,18,18,255);
+    background-color: black;
     margin: 0;
     padding: 0; 
 }
@@ -291,3 +291,11 @@ h1 {
     margin: 0 16px;
     width: 10px;
 }
+
+/* footer */
+
+#footer {
+    background-image: url(assets/footer-clouds.svg);
+    background-size: cover;
+    padding: 6rem;
+  }
