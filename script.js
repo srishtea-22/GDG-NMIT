@@ -63,3 +63,24 @@ eventItems.forEach(item => {
         window.location.href = item.dataset.link;
     });
 });
+
+const links = document.querySelectorAll('a[href^="#"]');
+
+links.forEach(link => {
+    link.addEventListener('click', (event) => {
+        event.preventDefault();
+        const targetId = link.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+
+        document.body.classList.add('scrolling');
+
+        window.scrollTo({
+            top: targetElement.offsetTop,
+            behavior: 'smooth'
+        });
+
+        setTimeout(() => {
+            document.body.classList.remove('scrolling');
+        }, 1000); 
+    });
+});
